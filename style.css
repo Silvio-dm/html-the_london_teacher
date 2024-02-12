@@ -1,0 +1,111 @@
+#brand{
+    position: fixed;
+    width: 200px;
+    top: 50px;
+    left: 50px;
+
+}
+#opening{
+max-width: 100%;
+width: 100%;
+height: auto;
+;
+}
+
+.whitebreaker{
+    height: 50px;
+    background-color: #ffffff;
+    
+}
+
+.bluebreaker{
+    height: 100px;
+    background-color: #29407c;
+    
+}
+
+#louie{
+    width: 400px;
+    float:left
+}
+
+body{
+    background-color: #29407c;
+
+}
+
+p{color: #ffffff;
+    font-size: large;
+    font-family: 'Sanchez', serif;
+
+}
+
+h1{color: #ffffff;
+    font-family: 'Sanchez', serif;
+}
+
+h2{color: #ffffff;
+    font-family: 'Sanchez', serif;
+}
+
+h3{color: #ffffff;
+    font-family: 'Sanchez', serif;
+
+}
+
+.container{
+    display:flex;
+    gap: 20px
+    
+}
+
+.steps-container{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+
+
+
+.grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.grid_container-step{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    position: relative;
+
+}
+
+.stepnumber{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.myicons{
+    width: 100px;    
+}
+
+.myicons{color: #ffffff;
+
+}
+
+.grid_container_aziende{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
+.img_azienda_cliente{
+    width: 200px;
+
+}
